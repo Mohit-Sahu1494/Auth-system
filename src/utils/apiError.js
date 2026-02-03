@@ -1,4 +1,6 @@
 import { Error } from "mongoose";
+
+// THIS IS API error
 class ApiError extends Error{
     constructor(
         statuscode,
